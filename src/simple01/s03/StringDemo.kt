@@ -1,15 +1,17 @@
 package simple01.s03
 
-// TODO: 2021/2/15 字符串模板
+// 2021/2/15 字符串模板
+// """ 回车 内容自动换行  换行: 三重引号 不再需要 \n
 fun main() {
     // $ 表示一个变量名 或变量值
     // $varName 表示变量值
     // ${varName.fun()} 表示变量的方法返回值
 
+
     val name = "路飞"
     val age = 22
     val info = "东海风车村"
-    println("name:$name, age:$age, info:$info")
+    println("字符串模板打印  ==》 name:$name, age:$age, info:$info")
 
     // --- 换行: 三重引号 不再需要 \n
     // .trimIndent() 去除前置空格

@@ -1,5 +1,9 @@
 package simple02.s01
 
+// TODO: 2021/3/3 simple02 比较和数组
+// 比较
+//  比较值本身 1. == （Kotlin 推荐）2. equals（同java）
+//  比较对象地址 1. ===; (java 中使用 == 比较对象地址)
 fun main(){
     val name1:String = "路飞"
     val name2:String = "路飞"

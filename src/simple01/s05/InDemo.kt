@@ -1,6 +1,6 @@
 package simple01.s05
 
-// TODO: 2021/2/11 区间
+// 2021/2/11-2021/3/3 区间
 fun main(){
 
     // 1 到 9
@@ -19,7 +19,7 @@ fun main(){
     }
 
     val value = 100
-    if (value in 1..100){
+    if (value in 1..100){//[1,100]
         println("包含在 1 到 100 的区间里")
     }else{
         println("不在区间 1 到 100 的范围内")
@@ -30,8 +30,8 @@ fun main(){
 //        println(i)
     }
 
-    // 排除最后的元素，即打印 1到 9
-    for (i in 1 until 10){
+    // 排除最后的元素，即打印 1到 9 [前闭后开)
+    for (i in 1 until 10){ //[1, 10)
         println(i)
     }
 
